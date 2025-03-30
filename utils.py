@@ -26,9 +26,10 @@ def guess_email_from_name(name, company_domain):
 def validate_and_format_name(name):
     try:
         prompt = (
-            f"Return only the properly capitalized version of this name if it's valid. "
-            f"If it's not a full name or contains invalid content, just return the original input.\n\n"
-            f"Name: {name}"
+            f"Return only the properly capitalized, spell-checked version of this name with no numbers/symbols, if it is valid.""
+            f"If the name is not valid, return it exactly as you received it. "
+            f"Do not add any extra words or formatting. Only return the name itself.\n\n"
+            f"{name}"
         )
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
