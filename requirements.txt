@@ -1,6 +1,7 @@
-streamlit
+openai>=1.0.0
+python-dotenv
 pandas
+streamlit
 googlesearch-python
 nameparser
 beautifulsoup4
-requests
