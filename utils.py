@@ -26,7 +26,7 @@ def guess_email_from_name(name, company_domain):
 def validate_and_format_name(name):
     try:
         prompt = (
-            f"Return only the properly capitalized, spell-checked version of this name with no numbers/symbols, if it is valid.""
+            f"Return only the properly capitalized, spell-checked version of this name with no numbers/symbols, if it is valid."
             f"If the name is not valid, return it exactly as you received it. "
             f"Do not add any extra words or formatting. Only return the name itself.\n\n"
             f"{name}"
