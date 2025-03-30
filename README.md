@@ -2,7 +2,7 @@
 
 BaaBaaLeads is a free, AI-enhanced lead generation tool built with Streamlit and powered by OpenAI. It lets you find high-quality LinkedIn leads, generate email guesses, score leads with AI, and draft personalized outreach messages—ready for download as a CSV.
 
-Live Demo: 
+**Live Demo:** [https://baabaaleads.streamlit.app/](https://baabaaleads.streamlit.app/)
 
 ---
 
